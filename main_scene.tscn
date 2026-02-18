@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://6b34kvmua8en"]
+
+[ext_resource type="Texture2D" uid="uid://cv5gimioxwto5" path="res://Pics/istockphoto-829309362-612x612.jpg" id="1_gyfs4"]
+[ext_resource type="Texture2D" uid="uid://kl5h1rfbsvu7" path="res://Pics/pngtree-space-shuttle-png-image_5640589.jpg" id="2_d5x1h"]
+[ext_resource type="Texture2D" uid="uid://btqkjysogqkwi" path="res://Pics/pngtree-alien-on-transparent-background-png-image_15747984.png" id="3_8mm7a"]
+
+[node name="Node2D" type="Node2D" unique_id=644832760]
+
+[node name="Space Background" type="Sprite2D" parent="." unique_id=1410943338]
+position = Vector2(5, 2)
+scale = Vector2(4.3954244, 4.5473275)
+texture = ExtResource("1_gyfs4")
+
+[node name="Space Ship" type="Sprite2D" parent="." unique_id=536929410]
+position = Vector2(-344, -610)
+scale = Vector2(0.47, 0.46666667)
+texture = ExtResource("2_d5x1h")
+
+[node name="Alien" type="Sprite2D" parent="." unique_id=1780960497]
+position = Vector2(630, 496)
+texture = ExtResource("3_8mm7a")
